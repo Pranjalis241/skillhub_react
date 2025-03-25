@@ -31,7 +31,7 @@ const NavigationBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto align-items-center">  {/* Added align-items-center */}
 
-                        <Nav.Link as={Link} to="/">
+                        <Nav.Link as={Link} to="/skillhub_react/">
                             <i className="fa-solid fa-home me-2"></i> Home
                         </Nav.Link>
 

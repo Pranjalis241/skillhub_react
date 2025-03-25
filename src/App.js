@@ -18,7 +18,7 @@ function App() {
         {/* <Counter /> */}
         <div> 
             <Routes>
-                <Route path="/" element={<Home />} />
+                {/* <Route path="/" element={<Home />} /> */}
                 <Route path="/skillhub_react" element={<Home />} />
                 <Route path="/registration" element={<Registration />} />
                 <Route path="/gallery" element={<Gallery />} />
