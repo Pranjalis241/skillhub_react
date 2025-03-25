@@ -1,0 +1,48 @@
+footer {
+    padding: 15px 20px;
+    text-align: center;
+  }
+  
+  .footer-contact p {
+    margin: 5px 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .footer-social a:hover {
+    color: #f077dc;
+  }
+  .footer-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Adjust spacing between elements */
+    padding-top: 10px;
+  }
+  
+  .footer-social h3 {
+    margin-right: 10px; /* Space between heading and icons/links */
+  }
+  
+  .footer-social i {
+    margin-right: 5px; /* Space between icon and link */
+    font-size: 1.2rem; /* Adjust icon size */
+  }
+  
+  
+  /* On large screens, display contact details in one line */
+  @media (min-width: 992px) {
+    .footer-contact {
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+  }

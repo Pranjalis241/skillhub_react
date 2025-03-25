@@ -1,0 +1,15 @@
+.card-img-top {
+    height: 190px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.carousel-item {
+    text-align: center;
+}
+.carousel-control-,
+.carousel-control-next-icon {
+    background-color: black;  /* Change color for better visibility */
+    border-radius: 50%;
+    padding: 10px;
+}

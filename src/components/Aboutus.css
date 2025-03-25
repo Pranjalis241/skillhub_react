@@ -1,0 +1,54 @@
+.about-us {
+    padding: 40px 0;
+    background: #f8f9fa;
+  }
+  
+  .about-title {
+    font-size: 38px;
+    font-weight: bold;
+    color: #020202;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 2px; /* Adjust thickness */
+    text-underline-offset: 3px; 
+
+  }
+  .about-image {
+    width: 100%;
+    max-width: 300px; /* Adjust max size */
+    border-radius: 10px;
+    
+  }
+  .about-text {
+    font-size: 24px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .btn-group {
+    margin-top: 20px;
+  }
+  
+  .services-btn {
+    background: linear-gradient(45deg, #8000ff, #ff00ff);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+  
+ 
+  .purple-text {
+    font-size: 1.9rem; /* Increase font size */
+  font-weight: bold;
+  background: linear-gradient(45deg, #8e44ad, #3498db); /* Purple to Blue Gradient */
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari & Chrome */
+  -webkit-text-fill-color: transparent; /* Makes gradient visible */
+  color: transparent; /* Fallback for unsupported browsers */
+  display: inline-block;
+  }
+  
