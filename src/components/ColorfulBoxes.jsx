@@ -41,9 +41,9 @@ const ColorfulBoxes = () => {
               <div className="mb-2" style={{ color: "#333" }}>{box.icon}</div>
               <h5 style={{ fontWeight: "bold" }}>{box.title}</h5>
               <p>{box.text}</p>
-              <a href="#" className="font-weight-bold">
+              {/* <a href="#" className="font-weight-bold">
                 Read More
-              </a>
+              </a> */}
             </div>
           </div>
         ))}

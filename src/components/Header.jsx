@@ -1,7 +1,6 @@
 import React from 'react';
 import './Header.css';
 import SubText from "./SubText";
-
 function Header() {
     return (
         <div className="header-container">
@@ -28,7 +27,8 @@ function Header() {
 
                     {/* Image Section */}
                     <div className="col-12 col-lg-6 d-flex justify-content-center">
-                        <img src="/images/pngegg.png" alt="Topper" className="header-img" />
+                        <img src="assets/image/pngegg.png" alt="Topper" className="header-img" />
+                       
                     </div>
                 </div>
             </div>

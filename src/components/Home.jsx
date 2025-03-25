@@ -63,6 +63,7 @@ const Home = () => {
                         <div className="col-md-4">
                             <div className="card mb-3" style={cardStyles.card1}>
                                 <img src="/images/wweb.jpg" className="card-img-top fixed-img" alt="Web Development" />
+                                <img src={`${process.env.PUBLIC_URL}/images/wweb.jpg`} alt="logo" />
 
                                 <div className="card-body">
                                     <h3 className="card-title" style={{ fontWeight: "bold" }}>Web Development</h3>
