@@ -27,7 +27,7 @@ function Header() {
 
                     {/* Image Section */}
                     <div className="col-12 col-lg-6 d-flex justify-content-center">
-                        <img src="assets/image/pngegg.png" alt="Topper" className="header-img" />
+                        <img src="images/pngegg.png" alt="Topper" className="header-img" />
                        
                     </div>
                 </div>

@@ -20,12 +20,12 @@ function App() {
             <Routes>
                 {/* <Route path="/" element={<Home />} /> */}
                 <Route path="/skillhub_react" element={<Home />} />
-                <Route path="/registration" element={<Registration />} />
-                <Route path="/gallery" element={<Gallery />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/allcourses" element={<Allcourses />} />
-                <Route path="/signup" element={<Signup/>} />
-                <Route path="/login" element={<Login/>} />
+                <Route path="/skillhub_react/registration" element={<Registration />} />
+                <Route path="skillhub_react/gallery" element={<Gallery />} />
+                <Route path="skillhub_react/contact" element={<Contact />} />
+                <Route path="skillhub_react/allcourses" element={<Allcourses />} />
+                <Route path="skillhub_react/signup" element={<Signup/>} />
+                <Route path="skillhub_react/login" element={<Login/>} />
             </Routes>
         </div>
         <Footer />

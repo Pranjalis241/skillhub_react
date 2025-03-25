@@ -35,11 +35,11 @@ const NavigationBar = () => {
                             <i className="fa-solid fa-home me-2"></i> Home
                         </Nav.Link>
 
-                        <Nav.Link as={Link} to="/registration">
+                        <Nav.Link as={Link} to="/skillhub_react/registration">
                             <i className="fa-solid fa-user-plus me-2"></i> Registration
                         </Nav.Link>
 
-                        <Nav.Link as={Link} to="/Gallery">
+                        <Nav.Link as={Link} to="/skillhub_react/Gallery">
                             <i className="fa-solid fa-user-plus me-2"></i> AI Gallery
                         </Nav.Link>
                         
@@ -48,23 +48,23 @@ const NavigationBar = () => {
                             title={<span><i className="fa-solid fa-book me-2"></i> AI Courses</span>}
                             id="coursesDropdown"
                         >
-                            <NavDropdown.Item as={Link} to="/allcourses">All courses</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/skillhub_react/allcourses">All courses</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to="/courses/data-science">Data Science</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to="/courses/ai">Artificial Intelligence</NavDropdown.Item>
                         </NavDropdown>
 
-                        <Nav.Link as={Link} to="/contact">
+                        <Nav.Link as={Link} to="/skillhub_react/contact">
                             <i className="fa-solid fa-envelope me-2"></i> Contact Us
                         </Nav.Link>
 
                         {/* Sign Up & Login Buttons */}
 
                         <div className="butn-group">
-                            <Nav.Link as={Link} to="/login">
+                            <Nav.Link as={Link} to="/skillhub_react/login">
                                 <button className="butn-primary">LOGIN</button>
                             </Nav.Link>
 
-                            <Nav.Link as={Link} to="/signup">
+                            <Nav.Link as={Link} to="/skillhub_react/signup">
                                 <button className="butn-secondary">SIGN UP</button>
                             </Nav.Link>
                         </div>

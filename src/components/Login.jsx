@@ -18,7 +18,7 @@ const Login = () => {
                 {/* Left Side - Image */}
                 <Col md={6} className="d-flex align-items-center justify-content-center">
                     <img
-                        src="/images/Pasted image.png" // Replace with your actual image URL
+                        src="images/Pasted image.png" // Replace with your actual image URL
                         alt="Login Illustration"
                         className="img-fluid"
                         style={{ maxWidth: "80%", height: "auto", marginTop: "-40px" }} // Adjust size and shift upward

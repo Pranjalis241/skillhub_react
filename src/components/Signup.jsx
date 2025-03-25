@@ -86,7 +86,7 @@ const Login = () => {
                 {/* Left Side - Image */}
                 <Col md={6} className="d-flex align-items-center justify-content-center">
                     <img
-                        src="/images/signup.png" // Replace with your actual image URL
+                        src="images/signup.png" // Replace with your actual image URL
                         alt="Login Illustration"
                         className="img-fluid"
                     />
