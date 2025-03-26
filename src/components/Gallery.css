@@ -6,7 +6,7 @@ body, html {
   overflow-x: hidden;
 }
 .gallery-container {
-    background: linear-gradient(to right,#ab92c7, white,white, #af95ce) ;
+    background: linear-gradient(to right,#67636b, white,white, #656169) ;
     
 
     /* background:  linear-gradient(61deg, rgb(175, 169, 180) 50%, rgb(48, 42, 47) 10%),

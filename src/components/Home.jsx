@@ -8,11 +8,21 @@ import Teachers from "./Teachers";
 const Home = () => {
     // Internal CSS styles
     const cardStyles = {
-        card1: { backgroundColor: "rgb(220, 215, 221)", color: "black" }, // Blue
-        card2: { backgroundColor: "rgb(220, 215, 221)", color: "black" }, // Green
-        card3: { backgroundColor: "rgb(220, 215, 221)", color: "black" }  // Red
+        card1: {
+            backgroundColor: "rgb(220, 215, 221)", color: "black", boxShadow: "0px 0px 15px rgba(0, 0, 0, 0.5)", // Equal shadow on all sides, darker
+            borderRadius: "10px"
+        }, // Blue
+        card2: {
+            backgroundColor: "rgb(220, 215, 221)", color: "black", boxShadow: "0px 0px 15px rgba(0, 0, 0, 0.5)", // Equal shadow on all sides, darker
+            borderRadius: "10px"
+        }, // Green
+        card3: {
+            backgroundColor: "rgb(220, 215, 221)", color: "black", boxShadow: "0px 0px 15px rgba(0, 0, 0, 0.5)", // Equal shadow on all sides, darker
+            borderRadius: "10px"
+        }  // Red
 
     }
+
 
 
 
@@ -20,6 +30,7 @@ const Home = () => {
         <>
             <Header />
             <ColorfulBoxes />
+            <br></br>
             <AboutUs />
 
 
@@ -33,35 +44,35 @@ const Home = () => {
 
 
 
-                    <div style={{ display: "flex", justifyContent: "center" ,padding: "20px"}}>
-                            <div style={{
-                                background: "linear-gradient(135deg, #e9d5ff, #d8b4fe)", // Soft lavender gradient
-                                borderRadius: "80px",
-                                padding: "20px",
-                                textAlign: "center",
-                                width: "300px"
-                            }}>
-                                <h2
-                                    className="text-center fw-bold"
-                                    style={{
-                                        fontFamily: "'Poppins', sans-serif",
-                                        color: "#222",
-                                        margin: "0",
-                                        fontSize:"21px",
-                                     
-                                    }}
-                                >
-                                   Most Searched Courses
-                                </h2>
-                              
-                            </div>
+                    <div style={{ display: "flex", justifyContent: "center", padding: "20px" }}>
+                        <div style={{
+                            background: "linear-gradient(135deg, #e9d5ff, #d8b4fe)", // Soft lavender gradient
+                            borderRadius: "80px",
+                            padding: "20px",
+                            textAlign: "center",
+                            width: "300px"
+                        }}>
+                            <h2
+                                className="text-center fw-bold"
+                                style={{
+                                    fontFamily: "'Poppins', sans-serif",
+                                    color: "#222",
+                                    margin: "0",
+                                    fontSize: "21px",
+
+                                }}
+                            >
+                                Most Searched Courses
+                            </h2>
+
                         </div>
+                    </div>
 
 
                     <div className="row" style={{ fontFamily: "'Lora', serif" }}>
                         {/* Card 1 */}
                         <div className="col-md-4">
-                            <div className="card mb-3" style={cardStyles.card1}>
+                            <div className="card mb-3 " style={cardStyles.card1}>
                                 <img src="images/wweb.jpg" className="card-img-top fixed-img" alt="Web Development" />
                                 {/* <img src={`https://pranjalis241.github.io/skillhub_react/images/wweb.jpg`} alt="logo" /> */}
 
@@ -126,13 +137,13 @@ const Home = () => {
                                         fontFamily: "'Poppins', sans-serif",
                                         color: "#222",
                                         margin: "0",
-                                        fontSize:"18px",
-                                     
+                                        fontSize: "18px",
+
                                     }}
                                 >
                                     Commonly Asked Questions
                                 </h2>
-                              
+
                             </div>
                         </div>
 

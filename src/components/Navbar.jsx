@@ -7,7 +7,7 @@ import './Navbar.css';
 const NavigationBar = () => {
     return (
         // <Navbar expand="lg" style={{ background: 'linear-gradient(135deg,rgb(250, 235, 245),rgb(222, 242, 253),rgb(250, 235, 245),rgb(222, 242, 253))', fontWeight: "bold" }}>
-        <Navbar expand="lg" style={{ background: 'linear-gradient(135deg,rgb(224, 228, 225),rgb(210, 216, 213)', fontWeight: "bold" }}>
+        <Navbar expand="lg" style={{ background: 'linear-gradient(135deg,rgb(211, 214, 211),rgb(210, 216, 213)', fontWeight: "bold" }}>
             <div className="container">
                
           

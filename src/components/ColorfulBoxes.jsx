@@ -35,8 +35,10 @@ const ColorfulBoxes = () => {
         {boxes.map((box, index) => (
           <div key={index} className="col-md-3">
             <div
-              className="p-4 text-center rounded shadow-sm"
-              style={{ backgroundColor: box.color }}
+              className="p-4 text-center rounded "
+              style={{ backgroundColor: box.color ,
+                boxShadow: "0px 0px 15px rgba(0, 0, 0, 0.4)" 
+              }}
             >
               <div className="mb-2" style={{ color: "#333" }}>{box.icon}</div>
               <h5 style={{ fontWeight: "bold" }}>{box.title}</h5>
