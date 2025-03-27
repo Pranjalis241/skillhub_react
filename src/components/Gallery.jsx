@@ -38,10 +38,10 @@ export default function Gallery() {
   
           {/* Controls */}
           <button className="carousel-control-prev" type="button" onClick={() => setActiveIndex((activeIndex - 1 + images.length) % images.length)}>
-            <span className="carousel-control-prev-icon1"></span>
+            <span className="carousel-control-prev-icon"></span>
           </button>
           <button className="carousel-control-next" type="button" onClick={() => setActiveIndex((activeIndex + 1) % images.length)}>
-            <span className="carousel-control-next-icon1"></span>
+            <span className="carousel-control-next-icon"></span>
           </button>
         </div>
   

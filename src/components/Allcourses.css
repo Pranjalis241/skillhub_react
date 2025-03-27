@@ -60,14 +60,37 @@
   /* Grid to keep 2 cards per line */
   .courses-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    justify-content: center;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
+    gap: 40px; /* Increase gap for better spacing */
+    justify-content: center; /* Center grid horizontally */
+    align-items: center; /* Align items vertically */
+    margin: 0 auto; /* Center the grid */
+    max-width: 1100px; /* Increase max width to properly distribute space */
+    padding: 20px; /* Add padding around the grid */
   }
   
   /* For responsiveness */
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) { /* Medium screens */
     .courses-grid {
-      grid-template-columns: 1fr;
+      grid-template-columns: repeat(2, 1fr); /* 2 columns per row */
+      gap: 30px; /* Slightly reduce gap */
+      max-width: 800px;
     }
   }
+  
+  @media (max-width: 768px) { /* Tablet screens */
+    .courses-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+      max-width: 700px;
+    }
+  }
+  
+  @media (max-width: 600px) { /* Mobile screens */
+    .courses-grid {
+      grid-template-columns: 1fr; /* 1 column per row */
+      gap: 20px;
+      max-width: 90%;
+    }
+  }
+  

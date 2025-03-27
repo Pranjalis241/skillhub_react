@@ -9,30 +9,44 @@ function Allcourses() {
       <h2 className="heading">All Courses</h2>
 
       <div className="courses-grid">
-        <CourseCard 
+        <CourseCard
           title="Artificial Intelligence"
-          image="https://via.placeholder.com/300x200?text=AI"
-          description="Learn AI, ML, and NLP from scratch."
+          image="images/aig7.jpeg"
+          description="Learn AI, ML, and NLP from scratch with us."
           price="4999"
         />
 
-        <CourseCard 
+        <CourseCard
           title="Web Development"
-          image="https://via.placeholder.com/300x200?text=Web+Development"
+          image="images/wweb.jpg"
           description="Master HTML, CSS, JavaScript, and React."
           price="3999"
         />
 
-        <CourseCard 
+        <CourseCard
           title="Cybersecurity"
-          image="https://via.placeholder.com/300x200?text=Cybersecurity"
+          image="images/cs.jpeg"
           description="Understand network security, cryptography, and risk management."
           price="4599"
         />
 
-        <CourseCard 
+        <CourseCard
+          title="Cybersecurity"
+          image="images/cs.jpeg"
+          description="Understand network security, cryptography, and risk management."
+          price="4599"
+        />
+
+        <CourseCard
+          title="Cybersecurity"
+          image="images/cs.jpeg"
+          description="Understand network security, cryptography, and risk management."
+          price="4599"
+        />
+
+        <CourseCard
           title="Data Analytics"
-          image="https://via.placeholder.com/300x200?text=Data+Analytics"
+          image="images/machine.jpg"
           description="Learn data mining, visualization, and big data technologies."
           price="4299"
         />
