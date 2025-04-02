@@ -61,11 +61,11 @@ const NavigationBar = () => {
 
                         <div className="butn-group">
                             <Nav.Link as={Link} to="/skillhub_react/login">
-                                <button className="butn-primary">LOGIN</button>
+                                <button className="butn-primary" id="testbutton">LOGIN</button>
                             </Nav.Link>
 
                             <Nav.Link as={Link} to="/skillhub_react/signup">
-                                <button className="butn-secondary">SIGN UP</button>
+                                <button className="butn-secondary" id="testbutton2">SIGN UP</button>
                             </Nav.Link>
                         </div>
 

@@ -14,8 +14,9 @@
   
   .course-card {
     width: 300px;
-    background-color: #fff;
+    background-color: #e6e3e3;
     border: 2px solid #ddd;
+    color: black;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -38,7 +39,7 @@
   }
   
   .course-price {
-    color: #28a745;
+    color: #1c7230;
     font-weight: bold;
     margin: 10px 0;
   }

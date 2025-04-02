@@ -51,8 +51,18 @@ p {
     padding: 12px;
     font-size: 16px;
     font-weight: bold;
+   
 }
-
+.custom-primary {
+    background-color: #007bff !important;
+    color: white !important;
+  }
+  
+  .custom-secondary {
+    background-color: #6c757d !important;
+    color: white !important;
+  }
+  
 @media (max-width: 768px) {
     .contact-container {
         padding: 10px;

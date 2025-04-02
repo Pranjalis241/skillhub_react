@@ -6,7 +6,18 @@ import "./Allcourses.css"
 function Allcourses() {
   return (
     <div className="all-courses-container">
-      <h2 className="heading">All Courses</h2>
+    
+    <h2
+  className="heading"
+  style={{
+    fontFamily: "Arial",
+    fontWeight: "bold",
+    padding: "20px",
+    margin: "0",
+  }}
+>
+  All Courses
+</h2>
 
       <div className="courses-grid">
         <CourseCard

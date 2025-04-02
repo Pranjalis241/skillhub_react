@@ -44,13 +44,13 @@ const Contact = () => {
         <div className="col-md-6 left-section">
           <h1>Get in touch with us</h1>
           <p>Don't hesitate to contact us for further details.</p>
-          <p><strong>📞 +123 456 7890</strong></p>     
+          <p><strong>📞 +123 456 7890</strong></p>
           {/* unicode  */}
           <p><strong>✉️ contact.skillhub.com</strong></p>
           <p><strong>📍 Impelsys, IWF Campus, Mahadevapura, Bengaluru, Karnataka</strong></p>
           <div className="ratio ratio-16x9">
             <iframe
-             title="Google Maps Location"
+              title="Google Maps Location"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.1266607020324!2d77.69576141534033!3d12.991702518929785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1275a70d0e27%3A0x27b70493f83f5dc9!2sImpelsys!5e0!3m2!1sen!2sin!4v1689081946072!5m2!1sen!2sin"
               allowFullScreen=""
               loading="lazy"
@@ -108,10 +108,11 @@ const Contact = () => {
             {successMessage && <div className="alert alert-success">{successMessage}</div>}
 
             {/* Submit Button */}
-            <button type="submit" className="btn btn-primary w-100">Send</button>
-            <button type="button" className="btn btn-secondary w-100 mt-2" onClick={() => setContact({ name: "", email: "", message: "" })}>
+            <button type="submit" className="btn w-100 custom-primary">Send</button>
+            <button type="button" className="btn w-100 mt-2 custom-secondary" onClick={() => setContact({ name: "", email: "", message: "" })}>
               Refresh
             </button>
+
           </form>
         </div>
       </div>

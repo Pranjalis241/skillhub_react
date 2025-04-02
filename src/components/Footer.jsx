@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="row justify-content-between">
             {/* About Section */}
             <div className="col-md-4 text-center text-lg-start">
-                <h5 className="brand" style={{ color: "pink", fontStyle: "Lora, sans-serif", fontWeight: "bold", fontSize: "30px" }}>
+                <h5 className="brand" style={{ color: "lightblue", fontStyle: "Lora, sans-serif", fontWeight: "bold", fontSize: "30px" }}>
                     SKILLHUB
                 </h5>
                 <p>
@@ -22,7 +22,7 @@ const Footer = () => {
             {/* Quick Links / Contact Section */}
             <div className="col-md-4 text-center text-lg-start">
                
-                <h5 className="brand" style={{ color: "pink", fontStyle: "Lora, sans-serif", fontWeight: "bold", fontSize: "30px" }}>
+                <h5 className="brand" style={{ color: "lightblue", fontStyle: "Lora, sans-serif", fontWeight: "bold", fontSize: "30px" }}>
                  Contact Us:
                 </h5>
                 <p><i className="fa-solid fa-envelope me-2"></i> skillhub@gmail.com</p>
@@ -33,7 +33,7 @@ const Footer = () => {
             {/* Feedback Section */}
             <div className="col-md-4 text-center text-lg-start">
                
-                <h5 className="brand" style={{ color: "pink", fontStyle: "Lora, sans-serif", fontWeight: "bold", fontSize: "30px" }}>
+                <h5 className="brand" style={{ color: "lightblue", fontStyle: "Lora, sans-serif", fontWeight: "bold", fontSize: "30px" }}>
                     Give your Feedback:
                 </h5>
                 <p>Help us grow! Share your feedback and suggestions.</p>
