@@ -50,14 +50,14 @@
   }
   
   /* Buttons */
-  .btn-group {
+  .btn9-group {
     display: flex;
     gap: 15px;
     padding-top: 10px;
   }
   
-  .btn-primary,
-  .btn-secondary {
+  .btn9-primary,
+  .btn9-secondary {
     padding: 12px 20px;
     font-size: 1.1em;
     border: none;
@@ -66,26 +66,26 @@
     transition: 0.3s ease-in-out;
   }
   
-  .btn-primary {
+  .btn9-primary {
     background: #4a90e2;
-    background:linear-gradient(blue,rgb(212, 1, 212));
+    background:linear-gradient(blue,rgb(248, 126, 248));
     color: white;
     /* border: 4px solid #546679; 
     border: 4px solid #642a03;  */
   }
   
-  .btn-primary:hover {
+  .btn9-primary:hover {
     background: linear-gradient(rgb(2, 2, 129),rgb(211, 13, 211));
   }
   
-  .btn-secondary {
-    background:linear-gradient(blue,rgb(212, 1, 212));
+  .btn9-secondary {
+    background:linear-gradient(blue,rgb(248, 126, 248));
     color: white;
     /* border: 4px solid #642a03;  */
   }
   
-  .btn-secondary:hover {
-    background: linear-gradient(blue,rgb(250, 192, 255));
+  .btn9-secondary:hover {
+    background: linear-gradient(rgb(2, 2, 129),rgb(211, 13, 211));
   }
   
   /* Image */

@@ -35,9 +35,9 @@ const NavigationBar = () => {
                             <i className="fa-solid fa-home me-2"></i> Home
                         </Nav.Link>
 
-                        <Nav.Link as={Link} to="/skillhub_react/registration">
+                        {/* <Nav.Link as={Link} to="/skillhub_react/registration">
                             <i className="fa-solid fa-user-plus me-2"></i> Registration
-                        </Nav.Link>
+                        </Nav.Link> */}
 
                         <Nav.Link as={Link} to="/skillhub_react/Gallery">
                             <i className="fa-solid fa-user-plus me-2"></i> AI Gallery

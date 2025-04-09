@@ -19,9 +19,9 @@ function Header() {
                         </p> */}
                           <SubText />
                         
-                        <div className="btn-group">
-                            <button className="btn-primary">Get Started</button>
-                            <button className="btn-secondary">Learn More</button>
+                        <div className="btn9-group">
+                            <button className="btn9-primary">Get Started</button>
+                            <button className="btn9-secondary">Learn More</button>
                         </div>
                     </div>
 

@@ -39,7 +39,7 @@ const Footer = () => {
                 <p>Help us grow! Share your feedback and suggestions.</p>
                 <form className="d-flex">
                     <input type="text" className="form-control me-2" placeholder="Share your feedback" />
-                    <button className="btn btn-primary">Submit</button>
+                    <button className="btn-primary">Submit</button>
                 </form>
             </div>
         </div>

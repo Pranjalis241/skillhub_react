@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "5bf4",
+      "username": "Priyaa",
+      "email": "pp@nomail.com",
+      "password": "abcdee",
+      "userType": "Trainer"
+    },
+    {
+      "id": "3791",
+      "username": "Shreya",
+      "email": "sh12@g.com",
+      "password": "shreya12",
+      "userType": "Student"
+    },
+    {
+      "id": "1dc4",
+      "username": "Abhi",
+      "email": "ab12@g.com",
+      "password": "abhii",
+      "userType": "Admin"
+    }
+  ]
+}

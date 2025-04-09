@@ -11,6 +11,11 @@ import Allcourses from './components/Allcourses';
 import Signup from "./components/Signup";
 import Login from "./components/Login";
 import Gallery from './components/Gallery';
+import AdminDashboard from './components/dashboards/AdminDashboard';
+import StudentDashboard from './components/dashboards/StudentDashboard';
+import TrainerDashboard from './components/dashboards/TrainerDashboard';
+
+
 function App() {
   return (
     <Router> 
@@ -26,6 +31,9 @@ function App() {
                 <Route path="skillhub_react/allcourses" element={<Allcourses />} />
                 <Route path="skillhub_react/signup" element={<Signup/>} />
                 <Route path="skillhub_react/login" element={<Login/>} />
+                <Route path="/admin-dashboard" element={<AdminDashboard />} />
+                <Route path="/student-dashboard" element={<StudentDashboard />} />
+                <Route path="/trainer-dashboard" element={<TrainerDashboard />} />
             </Routes>
         </div>
         <Footer />
