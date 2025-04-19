@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/skillhub_react/static/css/main.3efcad98.css",
-    "main.js": "/skillhub_react/static/js/main.242a67a7.js",
+    "main.css": "/skillhub_react/static/css/main.28b3d03f.css",
+    "main.js": "/skillhub_react/static/js/main.f2ece6df.js",
     "static/js/453.7a397fe4.chunk.js": "/skillhub_react/static/js/453.7a397fe4.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/skillhub_react/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/skillhub_react/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -9,12 +9,12 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/skillhub_react/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/skillhub_react/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/skillhub_react/index.html",
-    "main.3efcad98.css.map": "/skillhub_react/static/css/main.3efcad98.css.map",
-    "main.242a67a7.js.map": "/skillhub_react/static/js/main.242a67a7.js.map",
+    "main.28b3d03f.css.map": "/skillhub_react/static/css/main.28b3d03f.css.map",
+    "main.f2ece6df.js.map": "/skillhub_react/static/js/main.f2ece6df.js.map",
     "453.7a397fe4.chunk.js.map": "/skillhub_react/static/js/453.7a397fe4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3efcad98.css",
-    "static/js/main.242a67a7.js"
+    "static/css/main.28b3d03f.css",
+    "static/js/main.f2ece6df.js"
   ]
 }
