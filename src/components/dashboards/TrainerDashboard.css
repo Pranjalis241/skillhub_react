@@ -3,4 +3,9 @@
     border-color: #4A90E2 !important;
     color: white !important; /* optional */
   }
-  
+  .trainer-info-card {
+    max-width: 500px;
+    background: linear-gradient(to right,#f3f5f8, #d9d1df,#e6dcec, #f3f5f8);
+    border-color: #632270;
+    border-width: 1px;
+}

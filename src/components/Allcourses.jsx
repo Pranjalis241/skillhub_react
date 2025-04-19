@@ -2,11 +2,12 @@ import React from 'react';
 // Parent component send the data(props)
 import CourseCard from './CourseCard';
 import "./Allcourses.css"
+import ScrollToTop from './ScrollToTop';
 
 function Allcourses() {
   return (
     <div className="all-courses-container">
-    
+      <ScrollToTop /> 
     <h2
   className="heading"
   style={{

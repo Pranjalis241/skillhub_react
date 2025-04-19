@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import Header from './components/Header';
+import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
@@ -14,7 +14,7 @@ import Gallery from './components/Gallery';
 import AdminDashboard from './components/dashboards/AdminDashboard';
 import StudentDashboard from './components/dashboards/StudentDashboard';
 import TrainerDashboard from './components/dashboards/TrainerDashboard';
-
+import Freecourses from './components/Freecourses';
 
 function App() {
   return (
@@ -29,6 +29,7 @@ function App() {
                 <Route path="skillhub_react/gallery" element={<Gallery />} />
                 <Route path="skillhub_react/contact" element={<Contact />} />
                 <Route path="skillhub_react/allcourses" element={<Allcourses />} />
+                <Route path="skillhub_react/freecourses" element={<Freecourses />} />
                 <Route path="skillhub_react/signup" element={<Signup/>} />
                 <Route path="skillhub_react/login" element={<Login/>} />
                 <Route path="/admin-dashboard" element={<AdminDashboard />} />

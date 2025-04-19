@@ -4,6 +4,7 @@ import './Home.css';
 import AboutUs from './Aboutus';
 import ColorfulBoxes from "./ColorfulBoxes";
 import Teachers from "./Teachers";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     // Internal CSS styles
@@ -82,7 +83,9 @@ const Home = () => {
                                     <p className="card-text">
                                         Learn HTML, CSS, JS to build modern websites.
                                     </p>
-                                    <a href="/courses/web-development" className="btn btn-light">Explore Course</a>
+                                   
+                                    <Link to="/skillhub_react/allcourses" className="btn btn-light">Explore Course</Link>
+
                                 </div>
                             </div>
                         </div>
@@ -96,7 +99,8 @@ const Home = () => {
                                     <p className="card-text">
                                         Master Python, Machine Learning, and AI to analyze data.
                                     </p>
-                                    <a href="/courses/data-science" className="btn btn-light">Explore Course</a>
+                                    <Link to="/skillhub_react/allcourses" className="btn btn-light">Explore Course</Link>
+
                                 </div>
                             </div>
                         </div>
@@ -110,7 +114,8 @@ const Home = () => {
                                     <p className="card-text">
                                         Learn ethical hacking, network security, and risk management.
                                     </p>
-                                    <a href="/courses/cybersecurity" className="btn btn-light">Explore Course</a>
+                                    <Link to="/skillhub_react/allcourses" className="btn btn-light">Explore Course</Link>
+
                                 </div>
                             </div>
                         </div>

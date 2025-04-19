@@ -2,9 +2,9 @@ import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Gallery.css"
 const images = [
+  { src: "images/aig8.jpg", alt: "AI Image 7" },
   { src: "images/aig.avif", alt: "AI Image 1" },
   { src: "images/ai.webp", alt: "AI Image 2" },
-  { src: "images/aig8.jpg", alt: "AI Image 7" },
   { src: "images/aig9.png", alt: "AI Image 7" },
   { src: "images/aig7.jpeg", alt: "AI Image 7" },
   { src: "images/aig10.jpg", alt: "AI Image 7" },
@@ -13,8 +13,7 @@ const images = [
   { src: "images/aig3.webp", alt: "AI Image 4" },
   { src: "images/aig4.png", alt: "AI Image 5" },
   { src: "images/aig5.jpg", alt: "AI Image 6" },
-  { src: "images/aig6.jpeg", alt: "AI Image 7" },
-  
+  { src: "images/aig6.jpeg", alt: "AI Image 7" }, 
 
 ];
 

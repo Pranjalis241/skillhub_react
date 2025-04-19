@@ -1,10 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Navbar, Nav, NavDropdown} from 'react-bootstrap';
-
 import './Navbar.css';
 
 const NavigationBar = () => {
+    const navigate = useNavigate();
+
+    const handleFreeCourseClick = () => {
+        navigate('/skillhub_react/freecourses');
+    };
+
     return (
         // <Navbar expand="lg" style={{ background: 'linear-gradient(135deg,rgb(250, 235, 245),rgb(222, 242, 253),rgb(250, 235, 245),rgb(222, 242, 253))', fontWeight: "bold" }}>
         <Navbar expand="lg" style={{ background: 'linear-gradient(135deg,rgb(211, 214, 211),rgb(210, 216, 213)', fontWeight: "bold" }}>
@@ -48,16 +53,24 @@ const NavigationBar = () => {
                             title={<span><i className="fa-solid fa-book me-2"></i> AI Courses</span>}
                             id="coursesDropdown"
                         >
-                            <NavDropdown.Item as={Link} to="/skillhub_react/allcourses">All courses</NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/courses/data-science">Data Science</NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/courses/ai">Artificial Intelligence</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/skillhub_react/allcourses"  style={{ fontWeight: "bold" }}>All courses</NavDropdown.Item>
+                             {/* Free Courses Submenu */}
+                             <NavDropdown title="Free Courses" drop="end" id="freeCoursesDropdown">
+                                <NavDropdown.Item onClick={handleFreeCourseClick}>
+                                    Data Structure
+                                </NavDropdown.Item>
+                                <NavDropdown.Item onClick={handleFreeCourseClick}>
+                                    Cybersecurity
+                                </NavDropdown.Item>
+                                <NavDropdown.Item onClick={handleFreeCourseClick}>
+                                    Data Analytics
+                                </NavDropdown.Item>
+                            </NavDropdown>
                         </NavDropdown>
 
                         <Nav.Link as={Link} to="/skillhub_react/contact">
                             <i className="fa-solid fa-envelope me-2"></i> Contact Us
                         </Nav.Link>
-
-                        {/* Sign Up & Login Buttons */}
 
                         <div className="butn-group">
                             <Nav.Link as={Link} to="/skillhub_react/login">
